@@ -34,7 +34,7 @@ jobs:
           token: ${{ secrets.README_TOKEN }}
           output-path: profile/streak.svg
           theme: default
-          hide-border: true
+          hide-border: false
 
       - name: Commit cards
         run: |
