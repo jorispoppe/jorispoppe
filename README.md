@@ -2,4 +2,3 @@
 
 ![Stats](./profile/stats.svg)
 ![Languages](./profile/top-langs.svg)
-![Streak](./profile/streak.svg)
