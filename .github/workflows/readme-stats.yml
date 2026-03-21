@@ -11,43 +11,52 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate metrics
+      - name: Generate Metrics Card
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.README_TOKEN }}
           user: ${{ github.repository_owner }}
+          filename: profile/github-metrics.svg
           template: classic
-          base: header, activity, community, repositories
+          base: header, activity, community, repositories, metadata
           plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_limit: 8
-          plugin_notable: yes
-          filename: github-metrics.svg
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, languages-graphs, editors-graphs
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
 
-      - name: Generate stats card
+      - name: Generate Stats Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=transparent
-          path: profile/stats.svg
+          path: profile/github-stats.svg
           token: ${{ secrets.README_TOKEN }}
   
-      - name: Generate top languages card
+      - name: Generate Top Languages Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=donut-vertical&theme=transparent
-          path: profile/top-langs.svg
+          path: profile/github-toplangs.svg
           token: ${{ secrets.README_TOKEN }}
 
-      - name: Generate streak stats card
+      - name: Generate Streak Card
         uses: be-next/github-streak-stats-action@v1
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.README_TOKEN }}
-          output-path: profile/streak.svg
+          output-path: profile/github-streak.svg
           theme: default
           hide-border: false
 
