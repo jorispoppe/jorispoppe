@@ -22,6 +22,3 @@ jobs:
           plugin_languages_limit: 8
           plugin_topics: yes
           plugin_topics_mode: icons
-          plugin_wakatime: yes
-          plugin_wakatime_sections: time, languages, languages-graphs, editors, editors-graphs
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
