@@ -132,7 +132,7 @@
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
           stroke-dashoffset="0"
-          size="84.23908810012205"
+          size="81.35889899790352"
           data-testid="lang-donut"
         />
       </g>
@@ -146,8 +146,8 @@
           stroke="#012456"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="423.43184051271487"
-          size="15.151766935839847"
+          stroke-dashoffset="408.9544310335483"
+          size="18.052783099778317"
           data-testid="lang-donut"
         />
       </g>
@@ -161,8 +161,8 @@
           stroke="#3178c6"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="499.5929280239776"
-          size="0.6091449640381169"
+          stroke-dashoffset="499.69761625453"
+          size="0.5883179023181632"
           data-testid="lang-donut"
         />
       </g>
@@ -175,21 +175,21 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3AA2B5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        AL 84.24%
+        AL 81.36%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#012456" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 15.15%
+        PowerShell 18.05%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 0.61%
+        TypeScript 0.59%
       </text>
     </g>
   </g></g>
