@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Joris Poppe's GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 27, Total PRs: 104, Total PRs Merged: 97, Merged PRs Percentage: 93.27, Total PRs Reviewed: 0, Total Issues: 15, Total Discussions Started: 1, Total Discussions Answered: 0, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 27, Total PRs: 139, Total PRs Merged: 132, Merged PRs Percentage: 94.96, Total PRs Reviewed: 0, Total Issues: 15, Total Discussions Started: 1, Total Discussions Answered: 0, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 184.58489289903505;
+        stroke-dashoffset: 178.87205033150366;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >104</text>
+      >139</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged"
-      >97</text>
+      >132</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >93.27 %</text>
+      >94.96 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
