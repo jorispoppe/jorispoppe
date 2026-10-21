@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Joris Poppe's GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 28, Total PRs: 165, Total PRs Merged: 158, Merged PRs Percentage: 95.76, Total PRs Reviewed: 0, Total Issues: 14, Total Discussions Started: 1, Total Discussions Answered: 0, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 31, Total PRs: 167, Total PRs Merged: 160, Merged PRs Percentage: 95.81, Total PRs Reviewed: 0, Total Issues: 14, Total Discussions Started: 1, Total Discussions Answered: 0, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 174.03786907675297;
+        stroke-dashoffset: 173.54237188644294;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >28</text>
+      >31</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >165</text>
+      >167</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged"
-      >158</text>
+      >160</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >95.76 %</text>
+      >95.81 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
